@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+G:\PracticeApplications\SpringBootApplications\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\667133515.index
+\login-registration-springboot-hibernate-jsp-auth\src\main\java
+G:\PracticeApplications\SpringBootApplications\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\788558381.index
+\login-registration-springboot-hibernate-jsp-auth\src\main\java
