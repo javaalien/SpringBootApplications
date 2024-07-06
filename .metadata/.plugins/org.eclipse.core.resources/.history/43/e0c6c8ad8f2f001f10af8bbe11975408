@@ -1,4 +1,0 @@
-package com.login.repository;
-
-public interface RoleRepository extends JpaRepository<Role, Long> {
-}
