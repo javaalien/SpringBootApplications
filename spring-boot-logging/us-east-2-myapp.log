@@ -1,0 +1,384 @@
+2024-07-11 22:24:46.947  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:24:46.957  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:24:47.062  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-11 22:24:47.066  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-11 22:24:48.034  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:24:48.063  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:24:48.912  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:24:48.930  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:24:48.930  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:24:49.008  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:24:49.010  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1940 ms
+2024-07-11 22:24:49.052  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-11 22:24:49.290  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:91f9ccf4-241c-4cee-91af-34e72b2e49b0 user=SA
+2024-07-11 22:24:49.292  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-11 22:24:49.309  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:91f9ccf4-241c-4cee-91af-34e72b2e49b0'
+2024-07-11 22:24:49.491  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:24:49.652  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-11 22:24:49.701  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:24:50.053  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:24:50.471  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:24:50.479  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:24:50.560  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:24:51.008  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:24:51.055  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:24:51.072  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 4.793 seconds (process running for 5.249)
+2024-07-11 22:25:17.814  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:25:18.042  INFO 13676 [UserId:Guest] [Context:] --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:25:18.049  WARN 13676 [UserId:Guest] [Context:] --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:25:18.050  INFO 13676 [UserId:Guest] [Context:] --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-11 22:25:18.053  INFO 13676 [UserId:Guest] [Context:] --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-11 22:25:18.148  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:25:18.148  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:25:18.395  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:25:18.406  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:25:18.533  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:25:18.537  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:25:18.539  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:25:18.569  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:25:18.569  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 417 ms
+2024-07-11 22:25:18.587  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-11 22:25:18.593  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:eb6f855a-ac22-4ba9-9578-4dcd5b2fd9ed user=SA
+2024-07-11 22:25:18.594  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-11 22:25:18.594  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:eb6f855a-ac22-4ba9-9578-4dcd5b2fd9ed'
+2024-07-11 22:25:18.629  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:25:18.632  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:25:18.649  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:25:18.671  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:25:18.673  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:25:18.702  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:25:18.833  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:25:18.848  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:25:18.854  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 0.758 seconds (process running for 33.031)
+2024-07-11 22:25:18.858  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:25:30.641  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-11 22:25:30.641  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-11 22:25:30.644  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-11 22:25:32.894  INFO 13676 [UserId:f60a91c7-ec7b-4b06-b6aa-f1b4ad74f6f0] [Context:UserId=f60a91c7-ec7b-4b06-b6aa-f1b4ad74f6f0, CorrelationID=1fe0f70a-2b72-4377-b06e-7964e364b955] --- [http-nio-8080-exec-2] com.logging.DemoController               : Name: World
+2024-07-11 22:27:29.175  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:27:29.353  INFO 13676 [UserId:Guest] [Context:] --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:27:29.360  WARN 13676 [UserId:Guest] [Context:] --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:27:29.361  INFO 13676 [UserId:Guest] [Context:] --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-07-11 22:27:29.362  INFO 13676 [UserId:Guest] [Context:] --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-07-11 22:27:29.640  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:27:29.641  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:27:29.846  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:27:29.851  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:27:30.175  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:27:30.179  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:27:30.180  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:27:30.369  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:27:30.369  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 723 ms
+2024-07-11 22:27:30.388  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-07-11 22:27:30.392  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:3fff50c1-64b2-4193-bc8b-af56c523cb18 user=SA
+2024-07-11 22:27:30.395  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-07-11 22:27:30.395  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:3fff50c1-64b2-4193-bc8b-af56c523cb18'
+2024-07-11 22:27:30.426  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:27:30.432  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:27:30.645  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:27:30.667  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:27:30.668  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:27:30.697  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:27:30.811  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:27:30.825  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:27:30.830  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 1.311 seconds (process running for 165.007)
+2024-07-11 22:27:30.832  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:27:42.962  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-11 22:27:42.963  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-11 22:27:42.964  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-11 22:27:42.967  INFO 13676 [UserId:2fea3170-9845-4921-b87f-df2526c89abd] [Context:UserId=2fea3170-9845-4921-b87f-df2526c89abd, CorrelationID=81f0a4f7-5478-4647-9ccb-a40b467fbea1] --- [http-nio-8080-exec-1] com.logging.DemoController               : Name: World
+2024-07-11 22:28:28.112  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:28:28.322  INFO 13676 [UserId:Guest] [Context:] --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:28:28.323  WARN 13676 [UserId:Guest] [Context:] --- [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:28:28.324  INFO 13676 [UserId:Guest] [Context:] --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-07-11 22:28:28.325  INFO 13676 [UserId:Guest] [Context:] --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-07-11 22:28:28.440  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:28:28.441  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:28:28.584  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:28:28.588  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:28:28.715  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:28:28.717  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:28:28.720  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:28:28.792  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:28:28.793  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 348 ms
+2024-07-11 22:28:28.810  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-07-11 22:28:28.815  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:77adddfa-e4c7-4453-a775-c0e4d8d88cd3 user=SA
+2024-07-11 22:28:28.817  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-07-11 22:28:28.819  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:77adddfa-e4c7-4453-a775-c0e4d8d88cd3'
+2024-07-11 22:28:28.842  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:28:28.848  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:28:28.859  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:28:28.880  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:28:28.883  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:28:28.903  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:28:28.921  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invalid mapping on handler class [com.logging.DemoController]: public java.util.Map com.logging.DemoController.hello(java.lang.String)
+2024-07-11 22:28:28.921  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:28:29.134  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:28:29.134  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-07-11 22:28:29.273  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-07-11 22:28:29.275  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-11 22:28:29.290  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-11 22:28:29.437 ERROR 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invalid mapping on handler class [com.logging.DemoController]: public java.util.Map com.logging.DemoController.hello(java.lang.String)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.logging.SpringBootLoggingApplication.main(SpringBootLoggingApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Invalid mapping on handler class [com.logging.DemoController]: public java.util.Map com.logging.DemoController.hello(java.lang.String)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:287)
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:75)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:366)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:73)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'name' in value "/hello/${name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.config.EmbeddedValueResolver.resolveStringValue(EmbeddedValueResolver.java:54)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.resolveEmbeddedValuesInPatterns(RequestMappingHandlerMapping.java:472)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:423)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:363)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:317)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283)
+	... 31 common frames omitted
+
+2024-07-11 22:28:37.030  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:28:37.031  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:28:37.163  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:28:37.168  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:28:37.231  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:28:37.236  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:28:37.237  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:28:37.265  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:28:37.267  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 232 ms
+2024-07-11 22:28:37.288  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-07-11 22:28:37.293  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn31: url=jdbc:h2:mem:db76679e-bc79-49d1-8fec-e45b012473ff user=SA
+2024-07-11 22:28:37.294  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-07-11 22:28:37.294  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db76679e-bc79-49d1-8fec-e45b012473ff'
+2024-07-11 22:28:37.328  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:28:37.331  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:28:37.341  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:28:37.358  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:28:37.360  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:28:37.379  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:28:37.451  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:28:37.460  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:28:37.464  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 0.493 seconds (process running for 231.641)
+2024-07-11 22:28:37.466  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:28:44.366  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-11 22:28:44.366  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-11 22:28:44.373  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-07-11 22:28:44.376  INFO 13676 [UserId:ce016c57-0171-4fd8-84d4-06315b1ef875] [Context:UserId=ce016c57-0171-4fd8-84d4-06315b1ef875, CorrelationID=1865fd6d-317c-4418-875f-42d9b0864624] --- [http-nio-8080-exec-1] com.logging.DemoController               : Name: World
+2024-07-11 22:29:08.323  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:29:08.499  INFO 13676 [UserId:Guest] [Context:] --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:29:08.501  WARN 13676 [UserId:Guest] [Context:] --- [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:29:08.502  INFO 13676 [UserId:Guest] [Context:] --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-07-11 22:29:08.503  INFO 13676 [UserId:Guest] [Context:] --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-07-11 22:29:08.573  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:29:08.574  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:29:08.702  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:29:08.706  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:29:08.767  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:29:08.769  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:29:08.770  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:29:08.792  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:29:08.792  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
+2024-07-11 22:29:08.802  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-07-11 22:29:08.805  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn41: url=jdbc:h2:mem:c2fd4489-e10f-4265-ad8c-38f2854c0034 user=SA
+2024-07-11 22:29:08.805  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-07-11 22:29:08.805  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c2fd4489-e10f-4265-ad8c-38f2854c0034'
+2024-07-11 22:29:08.830  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:29:08.836  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:29:08.846  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:29:08.862  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:29:08.863  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:29:08.877  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:29:08.961  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:29:08.970  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:29:08.973  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 0.432 seconds (process running for 263.151)
+2024-07-11 22:29:08.975  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:29:11.960  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-11 22:29:11.960  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-11 22:29:11.962  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-11 22:29:11.967  INFO 13676 [UserId:fcb6ca16-b01c-4bc4-8625-e7f2cefe41d4] [Context:UserId=fcb6ca16-b01c-4bc4-8625-e7f2cefe41d4, CorrelationID=c564dcc4-86eb-4da3-8f91-a2c249604b1f] --- [http-nio-8080-exec-2] com.logging.DemoController               : Name: chetan
+2024-07-11 22:29:42.296  INFO 13676 [UserId:6b718168-71ec-4dd2-8c93-f05bf2a48ffb] [Context:UserId=6b718168-71ec-4dd2-8c93-f05bf2a48ffb, CorrelationID=bd19ebff-ad6b-4674-8919-e58f84a1053a] --- [http-nio-8080-exec-5] com.logging.DemoController               : Name: alien
+2024-07-11 22:29:46.106  INFO 13676 [UserId:b4b98690-d97b-4d37-8356-bdc26bb61bb5] [Context:UserId=b4b98690-d97b-4d37-8356-bdc26bb61bb5, CorrelationID=7ab3517d-5a00-48cb-bcf3-16e804c3f9a4] --- [http-nio-8080-exec-4] com.logging.DemoController               : Name: alien
+2024-07-11 22:29:55.142  INFO 13676 [UserId:84289edc-61dc-4e2a-817d-eef875591b6d] [Context:UserId=84289edc-61dc-4e2a-817d-eef875591b6d, CorrelationID=df6d6359-4d3b-4850-8666-4e804068cca5] --- [http-nio-8080-exec-8] com.logging.DemoController               : Name: alien
+2024-07-11 22:30:06.422  INFO 13676 [UserId:a6aa6ce4-9d4f-4003-bde0-eff45eeaa64e] [Context:UserId=a6aa6ce4-9d4f-4003-bde0-eff45eeaa64e, CorrelationID=4203bf75-3aff-4e64-b383-06451b797b44] --- [http-nio-8080-exec-2] com.logging.DemoController               : Name: chetan
+2024-07-11 22:30:10.594  INFO 13676 [UserId:ea117a52-1ae0-4496-b9ae-ba3732cc72f0] [Context:UserId=ea117a52-1ae0-4496-b9ae-ba3732cc72f0, CorrelationID=c1275ab2-bc75-4f60-8921-1a39a81b2693] --- [http-nio-8080-exec-5] com.logging.DemoController               : Name: alien
+2024-07-11 22:30:19.442  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:30:19.633  INFO 13676 [UserId:Guest] [Context:] --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:19.635  WARN 13676 [UserId:Guest] [Context:] --- [Thread-23] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:30:19.636  INFO 13676 [UserId:Guest] [Context:] --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-07-11 22:30:19.636  INFO 13676 [UserId:Guest] [Context:] --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-07-11 22:30:19.744  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:30:19.744  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:30:19.909  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:30:19.913  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:30:19.982  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:30:19.983  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:30:19.983  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:30:20.009  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:30:20.009  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 261 ms
+2024-07-11 22:30:20.019  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-07-11 22:30:20.022  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn51: url=jdbc:h2:mem:bac5e419-de6b-479f-9ad7-a0c2c2ed837e user=SA
+2024-07-11 22:30:20.024  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-07-11 22:30:20.024  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bac5e419-de6b-479f-9ad7-a0c2c2ed837e'
+2024-07-11 22:30:20.045  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:30:20.050  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:30:20.068  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:30:20.090  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:30:20.090  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:20.109  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:30:20.211  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:30:20.219  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:30:20.223  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 0.539 seconds (process running for 334.4)
+2024-07-11 22:30:20.224  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:30:44.020  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:30:44.232  INFO 13676 [UserId:Guest] [Context:] --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:44.233  WARN 13676 [UserId:Guest] [Context:] --- [Thread-27] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:30:44.233  INFO 13676 [UserId:Guest] [Context:] --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-07-11 22:30:44.235  INFO 13676 [UserId:Guest] [Context:] --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-07-11 22:30:44.314  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:30:44.314  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:30:44.463  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:30:44.467  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:30:44.549  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:30:44.554  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:30:44.555  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:30:44.581  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:30:44.581  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 259 ms
+2024-07-11 22:30:44.595  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-07-11 22:30:44.598  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn61: url=jdbc:h2:mem:80c1cb3a-4808-4159-969a-089e8498d1d6 user=SA
+2024-07-11 22:30:44.600  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-07-11 22:30:44.602  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:80c1cb3a-4808-4159-969a-089e8498d1d6'
+2024-07-11 22:30:44.627  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:30:44.629  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:30:44.638  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:30:44.656  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:30:44.658  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:44.672  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:30:44.780  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:30:44.794  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:30:44.798  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 0.52 seconds (process running for 358.976)
+2024-07-11 22:30:44.800  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:30:47.232  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:30:47.404  INFO 13676 [UserId:Guest] [Context:] --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:47.404  WARN 13676 [UserId:Guest] [Context:] --- [Thread-31] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:30:47.404  INFO 13676 [UserId:Guest] [Context:] --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-07-11 22:30:47.405  INFO 13676 [UserId:Guest] [Context:] --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-07-11 22:30:47.486  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:30:47.488  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:30:47.602  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:30:47.605  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:30:47.678  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:30:47.679  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:30:47.680  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:30:47.700  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:30:47.700  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2024-07-11 22:30:47.710  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-07-11 22:30:47.713  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn71: url=jdbc:h2:mem:a5a4f471-8d8e-4bd9-8848-f705746789b0 user=SA
+2024-07-11 22:30:47.715  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-07-11 22:30:47.715  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a5a4f471-8d8e-4bd9-8848-f705746789b0'
+2024-07-11 22:30:47.736  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:30:47.740  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:30:47.745  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:30:47.762  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:30:47.762  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:47.780  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:30:47.850  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:30:47.859  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:30:47.863  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 0.422 seconds (process running for 362.04)
+2024-07-11 22:30:47.865  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:30:51.305  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:30:51.521  INFO 13676 [UserId:Guest] [Context:] --- [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:51.522  WARN 13676 [UserId:Guest] [Context:] --- [Thread-35] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:30:51.522  INFO 13676 [UserId:Guest] [Context:] --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-07-11 22:30:51.523  INFO 13676 [UserId:Guest] [Context:] --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-07-11 22:30:51.580  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:30:51.580  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:30:51.691  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:30:51.696  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:30:51.779  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:30:51.781  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:30:51.782  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:30:51.806  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:30:51.807  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 224 ms
+2024-07-11 22:30:51.820  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-07-11 22:30:51.823  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn81: url=jdbc:h2:mem:386d36ca-e99d-4895-a2b8-03326521d91d user=SA
+2024-07-11 22:30:51.824  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-07-11 22:30:51.824  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:386d36ca-e99d-4895-a2b8-03326521d91d'
+2024-07-11 22:30:51.842  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:30:51.844  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:30:51.850  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:30:51.864  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:30:51.864  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:30:51.880  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:30:51.981  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:30:51.993  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:30:52.000  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 0.442 seconds (process running for 366.178)
+2024-07-11 22:30:52.004  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 22:30:57.114  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-11 22:30:57.115  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-11 22:30:57.123  INFO 13676 [UserId:Guest] [Context:] --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-07-11 22:30:57.127  INFO 13676 [UserId:fe3c9ec6-7f47-4a16-ad78-8e9d372eb8c4] [Context:UserId=fe3c9ec6-7f47-4a16-ad78-8e9d372eb8c4, CorrelationID=becd9d3c-9517-401d-b5a5-5c4120b07832] --- [http-nio-8080-exec-1] com.logging.DemoController               : Name: World
+2024-07-11 22:31:06.605  INFO 13676 [UserId:Guest] [Context:] --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-11 22:31:06.819  INFO 13676 [UserId:Guest] [Context:] --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:31:06.819  WARN 13676 [UserId:Guest] [Context:] --- [Thread-39] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-11 22:31:06.819  INFO 13676 [UserId:Guest] [Context:] --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-07-11 22:31:06.820  INFO 13676 [UserId:Guest] [Context:] --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-07-11 22:31:06.883  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.6 with PID 13676 (G:\PracticeApplications\SpringBootApplications\spring-boot-logging\target\classes started by malab in G:\PracticeApplications\SpringBootApplications\spring-boot-logging)
+2024-07-11 22:31:06.884  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-11 22:31:06.987  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-11 22:31:07.029  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-07-11 22:31:07.081  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-11 22:31:07.083  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 22:31:07.084  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-11 22:31:07.269  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-11 22:31:07.269  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 382 ms
+2024-07-11 22:31:07.279  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-07-11 22:31:07.281  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn91: url=jdbc:h2:mem:8ce764a4-fb5f-436c-a02d-b7d6b9b6a622 user=SA
+2024-07-11 22:31:07.281  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-07-11 22:31:07.281  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:8ce764a4-fb5f-436c-a02d-b7d6b9b6a622'
+2024-07-11 22:31:07.311  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-11 22:31:07.315  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-11 22:31:07.322  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-11 22:31:07.346  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-11 22:31:07.347  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-11 22:31:07.367  WARN 13676 [UserId:Guest] [Context:] --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-11 22:31:07.458  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 22:31:08.122  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-11 22:31:08.128  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 1.271 seconds (process running for 382.305)
+2024-07-11 22:31:08.129  INFO 13676 [UserId:Guest] [Context:] --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
