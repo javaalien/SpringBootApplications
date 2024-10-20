@@ -51,6 +51,7 @@ public class StudentController {
 		return "update-student";
 
 	}
+	
 
 	@PostMapping("update/{id}")
 	public String updateStudent(@PathVariable("id") long id, @Valid Student student, BindingResult result,
