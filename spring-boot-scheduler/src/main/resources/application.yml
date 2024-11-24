@@ -1,0 +1,14 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: malabade.chetan@gmail.com
+    password: Chet@n5032
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  application:
+    name: spring-boot-scheduler
