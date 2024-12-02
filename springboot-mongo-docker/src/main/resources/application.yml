@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      database: Book
+      host: javaalienmongodb
+      port: 27017
+  application:
+    name: springboot-mongo-docker
