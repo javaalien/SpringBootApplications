@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: springboot-multithreading-example
+server:
+  port: 9191
+
